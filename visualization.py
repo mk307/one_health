@@ -3,8 +3,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Merging WHO and Word Bank datasets
-who_data = pd.read_csv('E:\My Data\Skills Development\Programming\Python\Projects\One Health - Sustainability\Data\WHO_merged_data.csv')
-worldbank_data = pd.read_csv('E:\My Data\Skills Development\Programming\Python\Projects\One Health - Sustainability\Data\WorldBank_merged_data.csv')
+who_data = pd.read_csv('path.csv')
+worldbank_data = pd.read_csv('path.csv')
 
 merged_data = pd.merge(who_data, worldbank_data, on=['Year'])
 
